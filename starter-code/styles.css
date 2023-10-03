@@ -1,0 +1,20 @@
+body {
+  background-color: #f9f9f9;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.part1{
+  display: flex;
+  justify-content: space-between;
+}
+
+ul, li{
+  display: inline-flex;
+  margin: 4px;
+}
+
+@media (width > 100px){
+  .part1{
+    height: 5vh;
+  }
+
+}
